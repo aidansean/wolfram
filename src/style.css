@@ -1,0 +1,37 @@
+td.grid_0, td.grid_1{
+  width : 2px ;
+  height : 2px ;
+  font-size : 1pt ;
+  line-height : 0pt ;
+}
+td.grid_0{ background-color : #ffffff ; }
+td.grid_1{ background-color : #006633 ; background-color : #000000 ; }
+table.pattern{
+  border : 0px solid black ;
+  margin : auto ;
+  border-collapse : collapse ;
+}
+table#table_input{
+  width : 250px ;
+  margin : auto ;
+}
+th.th_input{
+  background-color : #006633 ;
+  background-color : #000000 ;
+  color : #ffffff ;
+  width : 150px ;
+}
+td.td_input{
+  width : 100px ;
+}
+input#input_rule, input#input_n{
+  width : 100px ;
+  text-align : center ;
+  height : 20px ;
+}
+td#td_submit{
+  text-align : center ;
+}
+a:visited{
+  color : #006633 ;
+}
