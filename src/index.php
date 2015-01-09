@@ -2,7 +2,7 @@
 $title = 'Wolfram rules' ;
 $stylesheets = array('style.css') ;
 $js_scripts = array('functions.js') ;
-include($_SERVER['FILE_PREFIX'] . '/preamble.php') ;
+include($_SERVER['FILE_PREFIX'] . '/_core/preamble.php') ;
 ?>
   <div id="content">  
     <div class="right">
@@ -41,6 +41,8 @@ include($_SERVER['FILE_PREFIX'] . '/preamble.php') ;
         <p>For example if a cell considers its two immediate neighbours and itself then it considers three cells in total, and there will be \(2^3=8\) possible outcomes.  The eight values in the rule will correspond to these values.</p>
         
         <p>For Sierpinski's triangle try the pattern <tt><a href="?rule=01011010">01011010</a></tt>.  <tt><a href="?rule=10000101">10000101</a></tt> is also quite pretty.</p>
+        
+        <p><a href="http://en.wikipedia.org/wiki/Elementary_cellular_automaton">Wikipedia page</a></p>
       </div>
     </div>
 <?php foot() ; ?>
